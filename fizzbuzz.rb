@@ -2,16 +2,16 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(integer)
   if (integer % 3 == 0)
-    "Fizz"
+    puts "Fizz"
 
   elsif (integer % 5 == 0)
-    "Buzz"
+    puts "Buzz"
 
   elsif (integer % 3 == 0 && integer % 5 == 0)
-    "FizzBuzz"
+    puts "FizzBuzz"
 
   else
-    ""
+    puts ""
   end
 
 end
