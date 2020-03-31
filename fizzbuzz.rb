@@ -1,13 +1,13 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
-def fizzbuzz(numero)
-  if numero % 3 == 0
+def fizzbuzz(numero = 9)
+  if (numero % 3 == 0)
     puts "Fizz"
 
-  elsif numero % 5 == 0
+  elsif (numero % 5 == 0)
     puts "Buzz"
 
-  elsif numero % 3 == 0 && numero % 5 == 0
+  elsif (numero % 3 == 0 && numero % 5 == 0)
     puts "FizzBuzz"
 
   else
